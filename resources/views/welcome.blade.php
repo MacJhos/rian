@@ -11,12 +11,12 @@
 
     <div class="card">
         <div class="card-header">
-            <img src="{{ asset('images/ssss.jpeg') }}" alt="Foto Profil" class="profile-img">
+            <img src="{{ asset('steven.jpeg') }}" alt="Foto Profil" class="profile-img">
         </div>
         <div class="card-body">
             <span class="tag">Web Developer</span>
-            <h2>sulung samiaji</h2>
-            <p>saya suka main bola kaki, saya mendukung tim real madrid.</p>
+            <h2>steven</h2>
+            <p>saya suka bermain ml.role hyper.</p>
             <div class="stats">
                 <div>
                     <h3>12+</h3>

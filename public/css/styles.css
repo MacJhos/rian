@@ -34,8 +34,8 @@ body {
     height: 150px;
     background: linear-gradient(
         to right,
-        #fe1111,
-        #550a0a
+        #a5f800,
+        #41005f
     ); /* Gradasi Biru-Ungu */
     position: relative;
 }
@@ -120,14 +120,14 @@ p {
 }
 
 .btn-primary:hover {
-    background-color: #1a5bca;
+    background-color: #f4fc06;
 }
 
 .btn-outline {
     border: 1px solid #2575fc;
-    color: #2575fc;
+    color: #2f00ff;
 }
 
 .btn-outline:hover {
-    background-color: #e1ecf4;
+    background-color: #f50000;
 }
