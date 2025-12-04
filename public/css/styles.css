@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #eef2f3; /* Warna background abu muda */
+    display: flex;
+    justify-content: center; /* Tengah Horizontal */
+    align-items: center; /* Tengah Vertikal */
+    min-height: 100vh; /* Tinggi minimal selayar penuh */
+}
+
+/* Desain Kartu */
+.card {
+    background: white;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efek melayang saat mouse di atasnya */
+}
+
+/* Gambar Profil */
+.card-header {
+    height: 150px;
+    background: linear-gradient(
+        to right,
+        #6a11cb,
+        #2575fc
+    ); /* Gradasi Biru-Ungu */
+    position: relative;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    position: absolute;
+    bottom: -60px; /* Agar gambar 'nongol' setengah */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Isi Kartu */
+.card-body {
+    padding: 70px 30px 30px 30px; /* Padding atas besar karena ada gambar */
+}
+
+.tag {
+    background: #e1ecf4;
+    color: #2575fc;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 10px 0 25px 0;
+    line-height: 1.5;
+}
+
+/* Statistik (Project/Exp/Clients) */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.stats h3 {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.stats small {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+/* Tombol */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background-color: #2575fc;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #1a5bca;
+}
+
+.btn-outline {
+    border: 1px solid #2575fc;
+    color: #2575fc;
+}
+
+.btn-outline:hover {
+    background-color: #e1ecf4;
+}
