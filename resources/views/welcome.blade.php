@@ -11,14 +11,13 @@
 
     <div class="card">
         <div class="card-header">
-            <img src="{{ asset('images/rian.jpeg') }}" alt="Foto Profil" class="profile-img">
+            <img src="{{ asset('images/ssss.jpeg') }}" alt="Foto Profil" class="profile-img">
         </div>
 
         <div class="card-body">
             <span class="tag">Web Developer</span>
-            <h2>rian alvredo</h2>
-            <p>saya suka bermain bola karena ingin seperti cristiano ronaldo .</p>
-
+            <h2>sulung samiaji</h2>
+            <p>saya suka main bola kaki, saya mendukung tim real madrid.</p>
             <div class="stats">
                 <div>
                     <h3>12+</h3>
