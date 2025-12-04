@@ -13,7 +13,6 @@
         <div class="card-header">
             <img src="{{ asset('images/ssss.jpeg') }}" alt="Foto Profil" class="profile-img">
         </div>
-
         <div class="card-body">
             <span class="tag">Web Developer</span>
             <h2>sulung samiaji</h2>
